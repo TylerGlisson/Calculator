@@ -1,0 +1,57 @@
+body {
+	background-color: grey;
+	text-align: center;
+	overflow: auto;
+}
+#titleTop {
+font-family: 'Roboto Slab', serif;
+	letter-spacing: -2px;
+	font-weight: 800;
+	font-size: 7em;
+	color: white;
+	background-color: #5bc6bc;
+	margin: 0;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.container-fluid {
+	height: 40vh;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	padding: 0;
+	margin: 0 auto;
+
+}
+#flexContainer {
+	align-self: center;
+	margin: 0 auto;
+	padding: 0;
+}
+#calculator {
+  text-align: center;
+	margin: auto;
+  padding: 50;
+}
+#calcOut {
+  text-align: right;
+  margin: auto;
+}
+.btn {
+	border-radius: 20px;
+	background-color: #f1b812;
+	color: white;
+	font-weight: bold;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding: 1px 9px 1px 9px;
+  font-family: 'Rubik', sans-serif;
+}
+#resultsDiv {
+	opacity: 0;
+	transition: opacity 2s;
+	text-align: center;
+	padding: 1% 8%;
+	background-color: #ff9b00db;
+}
+	
